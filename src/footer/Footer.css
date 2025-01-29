@@ -1,0 +1,50 @@
+footer {
+    background-color: #e4cbdf;
+    padding: 40px 0;
+}
+
+.footer-container {
+    width: 100%;
+    padding: 0 30px;
+    text-align: center;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    margin-bottom: 20px;
+    gap: 20px;
+}
+
+.social-link {
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 9px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.social-link:hover {
+    transform: scale(1.2);
+    background-color: whitesmoke;
+}
+
+.social-icons i {
+    color: white;
+    font-size: 36px;
+    transition: color 0.3s ease;
+}
+
+.social-link:hover i {
+    color: whitesmoke;
+}
+
+.copy {
+    margin-top: 20px;
+    color: #333;
+}
+
+.right {
+    font-size: 18px;
+}

@@ -1,0 +1,157 @@
+/* ==========================
+STYLES RESET
+========================== */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* ==========================
+BODY STYLING
+========================== */
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: whitesmoke;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* ==========================
+NAVBAR STYLING
+========================== */
+.navbar {
+    font-size: 2rem; 
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 20px;
+    background-color: #e4cbdf;
+    font-weight: bold;
+    list-style: none;
+    position: relative; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Logo image styling */
+.logo img {
+    width: 180px;
+}
+
+/* Menu items container */
+.menu {
+    display: flex;
+}
+
+/* Menu list items */
+.menu li {
+    padding-left: 30px;
+}
+
+/* Styling for each menu link */
+.menu li a {
+    display: inline-block;
+    text-decoration: none;
+    color: #FFF;
+    text-align: center;
+    transition: color 0.3s ease, background-color 0.3s ease;
+    position: relative;
+}
+
+/* Underline effect for links */
+.menu li a::after {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #FFF;
+    transition: width 0.3s ease, background-color 0.3s ease;
+}
+
+/* Hover effect for links */
+.menu li a:hover {
+    color: #449db1;
+    filter: brightness(calc(100% + 10%));
+}
+
+/* Expand underline on hover */
+.menu li a:hover::after {
+    width: 100%;
+    background-color: #449db152;
+    filter: brightness(calc(100% + 10%));
+}
+
+/* Open and close menu buttons for mobile view */
+.open-menu, .close-menu {
+    position: absolute;
+    color: #FFF;
+    cursor: pointer;
+    font-size: 1.5rem;
+    display: none;
+}
+
+/* Open menu button positioning (hamburger icon) */
+.open-menu {
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+}
+
+/* Close menu button positioning (close icon) */
+.close-menu {
+    top: 20px;
+    right: 20px;
+}
+
+/* Hide the checkbox input (it's used to toggle the mobile menu) */
+#check {
+    display: none;
+}
+
+/* ==========================
+MOBILE STYLES
+========================== */
+@media (max-width: 710px) {
+    /* Font size for mobile screens */
+    .navbar {
+        font-size: 1.2rem; /* Smaller font size for mobile screens */
+    }
+
+    /* Menu styling for mobile view */
+    .menu {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 80%;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        right: -100%;
+        z-index: 100;
+        background-color: #e4cbdf;
+        transition: all 0.2s ease-in-out;
+    }
+
+    /* Spacing between menu items on mobile */
+    .menu li {
+        margin-top: 40px;
+    }
+
+    .menu li a {
+        padding: 10px;
+    }
+
+    /* Show the menu buttons (hamburger and close) on mobile */
+    .open-menu, .close-menu {
+        display: block;
+    }
+
+    /* When the checkbox is checked, show the menu */
+    #check:checked ~ .menu {
+        right: 0;
+    }
+}

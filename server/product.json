@@ -1,0 +1,114 @@
+{
+    "products": [
+        {
+        "brand": "Varmilo",
+        "name": "Varmilo Mechanical Keyboard",
+        "price":52.00,
+        "size":"Numberpad",
+        "image":"https://mechanicalkeyboards.com/cdn/shop/files/15432_63ae07261032b_VB21M-Sakura.jpg?v=1707272224&width=750",
+        "hotSwap":"false",
+        "description": "Cherry MX switches, Dye Sub PBT keycaps, and Bluetooth 5.0—perfect for Sakura TKL keyboards. Requires 2 AAA batteries (not included)."
+        },
+        {
+            "brand": "Varmilo",
+            "name": "Varmilo Mechanical Keyboard",
+            "price":49.99,
+            "size":"Numberpad",
+            "image":"https://mechanicalkeyboards.com/cdn/shop/files/16406-G7FB1-VB21M-Sea-Melody.png?v=1731513694&width=650",
+            "hotSwap":"false",
+            "description": "Cherry MX switches, Dye Sub PBT keycaps, and Bluetooth 5.0—perfect for Sakura TKL keyboards. Requires 2 AAA batteries (not included)."
+        },
+        {
+            "brand": "Ducky",
+            "name": "Ducky One 3 Mechanical Keyboard",
+            "price":119.00,
+            "size":"Full-size",
+            "image":"https://mechanicalkeyboards.com/cdn/shop/files/15452_643f62c73fdb5_One-3-SF-Mist.jpg?v=1707272228&width=1680",
+            "hotSwap":"true",
+            "description": "The Ducky One 3 Matcha features a dual-layer hotswap PCB, Kailh Yellow sockets, V2 stabilizers, premium Double Shot PBT keycaps, advanced sound dampening, and a customizable low-profile case."
+            },
+            {
+                "brand": "Leopold",
+                "name": "Leopold Mechanical Keyboard",
+                "price":135.00,
+                "size":"Full-size",
+                "image":"https://mechanicalkeyboards.com/cdn/shop/files/15253_63ae06d8057ef_FC900RBT-WhitePink-PD.jpg?v=1707271990&width=800",
+                "hotSwap":"true",
+                "description": "This keyboard features USB-C or Bluetooth 5.1 connectivity, Cherry MX switches, PBT keycaps, customizable dip switches, multimedia controls, and wireless power via two AAA batteries."
+                },
+                {
+                    "brand": "Ducky",
+                    "name": "Ducky x MK Strawberry Frog Mechanical Keyboard",
+                    "price":154.00,
+                    "size":"Tenkeyless",
+                    "image":"https://mechanicalkeyboards.com/cdn/shop/files/15892_643f634fc4b3a_One-3-TKL-Strawberry-Frog.jpg?v=1707188854&width=1500",
+                    "hotSwap":"true",
+                    "description": "The Ducky x MK Limited Edition Strawberry Frog One 3 TKL combines a hotswap PCB, XDA PBT keycaps, per-key RGB, premium sound dampening, and custom accessories for a perfect blend of performance and style."
+                    },
+                    {
+                        "brand": "Ducky",
+                        "name": "Ducky One 2 Mechanical Keyboard",
+                        "price":109.00,
+                        "size":"Tenkeyless",
+                        "image":"https://mechanicalkeyboards.com/cdn/shop/files/3129_62a3c328cf7e6_One-2-RGB-TKL-Pure-White.jpg?v=1718397636&width=650",
+                        "hotSwap":"false",
+                        "description": "This set features 10 random colorful PBT keycaps, Cherry MX switches, adjustable feet, detachable USB-C cable, dual-layer PCB, and potential bonus zodiac spacebar."
+                    },
+                    {
+                        "brand": "Varmilo",
+                        "name": "Varmilo Mechanical Keyboard",
+                        "price":129.00,
+                        "size":"75%",
+                        "image":"https://mechanicalkeyboards.com/cdn/shop/files/15910-L4HSF-Varmilo-Minilo-VXB81-Eucalyptus.jpg?v=1713191587&width=750",
+                        "hotSwap":"false",
+                        "description": ""
+                    },
+                    {
+                        "brand": "Shortcut Studio",
+                        "name": "Shortcut Studio Bridge75 Mechanical Keyboard ",
+                        "price":104.00,
+                        "size":"75%",
+                        "image":"https://mechanicalkeyboards.com/cdn/shop/files/21942-D53Q6-Shortcut-Studio-Bridge75-Plus.jpg?v=1730932725&width=650",
+                        "hotSwap":"true",
+                        "description": ""
+                    },
+                    {
+                        "brand": "Melgeek",
+                        "name": "MelGeek Mojo68 Mechanical Keyboard ",
+                        "price":184.00,
+                        "size":"Compact",
+                        "image":"https://mechanicalkeyboards.com/cdn/shop/files/16449-J4MUT-Mojo68-Christian.jpg?v=1710651892&width=650",
+                        "hotSwap":"true",
+                        "description": ""
+                    },
+                    {
+                        "brand": "Yunzii",
+                        "name": "MelGeek Mojo68 Mechanical Keyboard ",
+                        "price":99.00,
+                        "size":"Compact",
+                        "image":"https://mechanicalkeyboards.com/cdn/shop/files/18264-58EXF-Yunzii-C68-Cat.jpg?v=1709850750&width=1500",
+                        "hotSwap":"true",
+                        "description": ""
+                    },
+                    {
+                        "brand": "Varmilo",
+                        "name": "Varmilo Pink and Blue Keycap Set",
+                        "price":34.30,
+                        "size":"Mk",
+                        "image":"https://mechanicalkeyboards.com/cdn/shop/files/13276_62914d9e6a210_108-Key-Dye-Sub-PBT-Keycap-Set-Pink-and-Blue.jpg?v=1707264972&width=750",
+                        "hotSwap":"true",
+                        "description": ""
+                    },
+                    {
+                        "brand": "Varmilo",
+                        "name": "Varmilo Pink and Blue Keycap Set",
+                        "price":34.30,
+                        "size":"Mk",
+                        "image":"https://mechanicalkeyboards.com/cdn/shop/files/5964_629007ea75756_GPBT-Pastel-Dye-Sub-PBT-Keycap-Set.jpg?v=1707262353&width=1680",
+                        "hotSwap":"true",
+                        "description": ""
+                    }
+
+
+    ]
+}
