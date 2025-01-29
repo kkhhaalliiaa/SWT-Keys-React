@@ -14,7 +14,7 @@ export default function Shop() {
     useEffect(() => {
         const fetchProducts = async () => {
             try {
-                const response = await fetch('http://localhost:3000/api/products');
+                const response = await fetch('https://swt-keys-react-be.onrender.com/api/products');
                 const data = await response.json();
                 setData(data);
                 setFilteredData(data); // Set initial data to filteredData
