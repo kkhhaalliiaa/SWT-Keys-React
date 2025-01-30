@@ -24,7 +24,7 @@ To run the project locally, follow these steps:
 1. Clone the repository: `git clone https://github.com/your-repo/swt-keys-react.git`
 2. Navigate to the project directory: ` cd swt-keys-react`
 3. Install dependencies:`npm install`
-4. Run the development server: `npm start
+4. Run the development server: `npm start`
 5. Open your browser and visit http://localhost:3000 to view the site.
 
 ## Contact
