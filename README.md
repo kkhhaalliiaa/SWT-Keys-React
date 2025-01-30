@@ -1,6 +1,7 @@
 ## SWT Keys
 
-# Live Demo: https://swt-keys-react.vercel.app/
+# Live Demo: 
+https://swt-keys-react.vercel.app/
 
 # Overview
 SWT Keys is a React-based web application that provides users with information about various different themed mechanical keyboard & keycaps. The site is designed to showcase unique keycap designs, allowing enthusiasts to explore different options for customizing their mechanical keyboards.
@@ -21,8 +22,8 @@ SWT Keys is a React-based web application that provides users with information a
 To run the project locally, follow these steps:
 
 1. Clone the repository: `git clone https://github.com/your-repo/swt-keys-react.git`
-2. Navigate to the project directory: ` cd swt-keys-react
-3. Install dependencies:`npm install
+2. Navigate to the project directory: ` cd swt-keys-react`
+3. Install dependencies:`npm install`
 4. Run the development server: `npm start
 5. Open your browser and visit http://localhost:3000 to view the site.
 
