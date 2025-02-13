@@ -4,7 +4,7 @@
 https://swt-keys-react.vercel.app/
 
 ## Overview
-SWT Keys is a React-based web application that provides users with information about various different themed mechanical keyboard & keycaps. The site is designed to showcase unique keycap designs, allowing enthusiasts to explore different options for customizing their mechanical keyboards as well as exploring updated technology news.
+This eccomerce application called SWT Keys is a React-based web application that provides users with information about various different themed mechanical keyboard & keycaps. The site is designed to showcase unique keycap designs, allowing enthusiasts to explore different options for customizing their mechanical keyboards as well as exploring updated technology news.
 
 ## Features
 - Browse Keycaps: View a collection of Star Wars-themed mechanical keyboard keycaps.
